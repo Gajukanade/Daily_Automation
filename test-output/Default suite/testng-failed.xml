@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="learnTestNG.testngdemo">
+      <class name="browserscripts.checkingtitle">
         <methods>
-          <include name="vaildatetitle"/>
+          <include name="testGoogle"/>
+          <include name="end"/>
         </methods>
-      </class> <!-- learnTestNG.testngdemo -->
+      </class> <!-- browserscripts.checkingtitle -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
