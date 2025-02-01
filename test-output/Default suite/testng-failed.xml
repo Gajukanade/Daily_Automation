@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="browserscripts.checkingtitle">
+      <class name="browserscripts.crossBrowserParallel">
         <methods>
-          <include name="testGoogle"/>
-          <include name="end"/>
+          <include name="verifyTitle"/>
+          <include name="quitbr"/>
         </methods>
-      </class> <!-- browserscripts.checkingtitle -->
+      </class> <!-- browserscripts.crossBrowserParallel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
