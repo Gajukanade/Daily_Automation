@@ -19,8 +19,6 @@ public class multipleWindows {
 			
 			WebElement newwindow = driver.findElement(By.id("windowButton"));
 			newwindow.click();
-			
-			
 			//store main window handle
 			String mainwindow = driver.getWindowHandle();
 
@@ -30,22 +28,9 @@ public class multipleWindows {
 		for(String handle : allWindow) {
 			if(!handle.equals(mainwindow)) {
 				driver.switchTo().window(handle);				
-			}
-			
+			}	
 		}
-		
-		
-		
-		
-		}
-		
-		
-		
-		
-		
-		
-		
-		
+	}
 		finally {
 			System.out.println("Program run successfully...");
 		}
